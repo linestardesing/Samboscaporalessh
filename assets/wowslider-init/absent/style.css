@@ -64,8 +64,10 @@
 	display:block;
 	color:transparent;
 }
-.mbr-wowslider-container--absent .mbr-wowslider img{
+.mbr-wowslider-container--absent .mbr-wowslider img, iframe{
 	max-width: none !important;
+	width: auto;
+	display: initial;
 }
 .mbr-wowslider-container--absent .mbr-wowslider .ws_images .ws_list img,
 .mbr-wowslider-container--absent .mbr-wowslider .ws_images > div > img{
